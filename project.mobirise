@@ -76,7 +76,8 @@
     "versionPublish": "5.3.0",
     "screenshot": "screenshot.png",
     "modified": "2019-11-14T12:36:04.853Z",
-    "imageResize": true
+    "imageResize": true,
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
