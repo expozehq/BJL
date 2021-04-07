@@ -1059,11 +1059,11 @@
           "_sourceTheme": "personam4",
           "_customHTML": "<section class=\"content7 personam4_content7\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\">\n\t\t<header>Counters</header>\n\t\t<input type=\"checkbox\" title=\"Stylized\" name=\"stylizedCounters\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"counterColor\" value=\"#3d626c\" condition=\"stylizedCounters\">\n\t\t<select title=\"Type\" name=\"countersType\" condition=\"stylizedCounters\">\n\t\t\t<option value=\"default\" selected>Сircle Fill</option>\n\t\t\t<option value=\"circle\">Circle</option>\n\t\t\t<option value=\"square\">Square</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\" mbr-cards=\"bootstrap\">\n\t\t\t<div class=\"card col-12 col-md-6\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<h4 class=\"card-title align-right mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Scope of services included</h4>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-6 col-md-6 py-3\">\n\t\t\t\t<p class=\"mbr-text pb-2 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate est leo, vitae auctor metus\n\t\t\t\t\teleifend eu. Quisque fermentum nisi sed convallis ornare.</p>\n\t\t\t\t<div class=\"mbr-text counter-container mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline mbr-article>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>Menu compilation\n</li><li>Purchase of products\n</li><li><span style=\"font-size: 1.25rem;\">Serving dishes&nbsp;</span><br></li><li>Preparation of banquets and festive dinners</li><li>and more</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<ul>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "stVvIX5woz",
+          "_anchor": "content07-w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-w"
+          "_params": {}
         },
         {
           "_name": "contacts4",
@@ -1293,11 +1293,11 @@
             }
           },
           "_cid": "stVt7Trb3Y",
+          "_anchor": "footer2-v",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer2-v"
+          "_params": {}
         }
       ]
     }
